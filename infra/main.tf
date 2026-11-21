@@ -7,7 +7,7 @@ region = "us-east-1"
 
 
 resource "aws_s3_bucket" "web" {
-bucket = "sebastianespinosa-githubaccions-demo-cohorte3" #nombre del bucket que crearas
+bucket = "sebastianespinosa-terraform-lab-2026-unique" #nombre del bucket que crearas
 
    tags = {
     Name        = "My bucket"
